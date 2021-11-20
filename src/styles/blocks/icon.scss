@@ -1,0 +1,38 @@
+.icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+    
+  &--menu {
+    background-image: url(../images/menu.png);
+    width: 20px;
+    height: 15px;
+    margin-right: 17px;
+  }
+  
+  &--search {
+    background-image: url(../images/dandruff.png);
+    width: 18px;
+    height: 18px;
+  }
+
+  &--logo {
+    background-image: url(../images/Aurora.png);
+    width: 104px;
+    height: 20px;
+ 
+  }
+
+  &--basket {
+    background-image: url(../images/Full-Basket.png);
+    width: 46px;
+    height: 24px;
+  }
+
+  &--cross {
+    background-image: url(../images/close.png);
+    width: 24px;
+    height: 16px;
+  }
+}

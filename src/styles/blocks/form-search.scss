@@ -1,0 +1,27 @@
+.form-search {
+  display: block;
+  box-sizing: border-box;
+  height: 48px;
+  line-height: 48px;
+  width: 100%;
+  background-color: rgba(255,255,255,0.24);
+  mix-blend-mode: normal;
+  border-radius: 3px;
+  padding: 16px 407px 16px 16px;
+  border: none;
+  outline: none;
+  background-image: url(../images/dandruff.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: right 4% bottom 50%;
+  margin-top: 8px;
+ 
+  &::placeholder {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    color: $colorWhite;
+  }
+}

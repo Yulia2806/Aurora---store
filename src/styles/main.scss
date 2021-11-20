@@ -1,7 +1,16 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "variables.scss";
+@import "mixins.scss";
 
-body {
-  background: $c-gray;
-}
+@import "blocks/page";
+@import "blocks/container";
+@import "blocks/header";
+@import "blocks/delivery";
+@import "blocks/logo";
+@import "blocks/form-search";
+@import "blocks/menu";
+@import "blocks/register";
+@import "blocks/registration";
+@import "blocks/info";
+@import "blocks/icon";
+@import "blocks/top-actions";
+@import "blocks/card";

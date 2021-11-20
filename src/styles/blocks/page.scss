@@ -1,0 +1,25 @@
+.page {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background-color: $colorWhite;
+  cursor: pointer;
+
+  &__menu {
+    margin: 0;
+  }
+
+  &__card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    //transform: translateX(-100%);
+    display: none;
+    transition: transform 0.3s;
+  
+    &:target {
+      //transform: translateX(0);
+      display: block;
+    }
+  }
+}    

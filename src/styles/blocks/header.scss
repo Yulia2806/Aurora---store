@@ -1,0 +1,58 @@
+.header {
+  &__top {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px 9px;
+  }
+
+  &__desctop {
+    @include onMobile {
+      display: none;
+    }
+  }
+
+  &__mobile {
+    background-image: url(../images/Girl.png);
+    display: none;
+
+    @include onMobile {
+      display: block;
+    }
+  }
+
+  &__main {
+    background-image: url(../images/Girl.png);
+    background-position: center;
+    background-size: cover;
+    padding: 16px 7px 16px 22px;
+
+    &:active {
+      background-image: url(../images/girl2.png);
+    }
+
+    @include onMobile {
+      padding: 22px 16px 440px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__down {
+    padding: 185px 0 231px;
+  }
+
+  &__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    text-align: center;
+    color: $colorWhite;
+    margin: 0;
+  }
+
+  
+}

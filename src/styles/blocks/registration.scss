@@ -1,0 +1,59 @@
+.registration {
+  &__form {
+    margin: 32px auto;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.87px;
+    color: $colorBlack;
+    text-align: center;
+  }
+
+  &__wrapper {
+    display: flex;
+    padding: 0 34%;
+  }
+
+  &__email {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.8px;
+    color: #4a4a4a;
+    box-sizing: border-box;
+    display: block;
+    height: 32px;
+    width: 334px;
+    margin-right: 12px;
+    border-radius: 3px;
+    border: 1px solid #e1e0e1;
+    padding: 8px 0 7px 11px;
+
+    @include onMobile {
+      width: 224px;
+    }
+  }
+
+  &__button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $colorWhite;
+    box-sizing: border-box;
+    display: block;
+    height: 32px;
+    background-color: $colorBlack;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: none;
+  }
+}

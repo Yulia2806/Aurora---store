@@ -1,0 +1,28 @@
+.menu {
+  &__list {
+    list-style: none;
+    text-align: center;
+    margin-top: 21px;
+  }
+
+  &__item {
+    margin-right: 32px;
+    display: inline-block;
+        
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $colorWhite;
+  }
+}
